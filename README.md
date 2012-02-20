@@ -1,7 +1,8 @@
 #Amazon Product Advertising API for Python 3.x**
 
 This is a amazon api wrapper for Python 3.x.  
-This libraries make you easier to care for requesting amazon api.
+This libraries make you easier to care for requesting amazon api.  
+The license is LGPL.
 
 First you must make Amathon object, this object need api_keys and assocciate ID.  
 `api = Amathon(AWSAccessKeyId=api_key.access_key, ASWSecretAccessKey=api_key.secret_key, AssociateTag=api_key.aa_id)`
