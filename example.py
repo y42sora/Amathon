@@ -12,10 +12,10 @@ The key is described on api_key.py
 import re
 
 import api_key
-from amathon import Amathon
+from amathon.amathon import Amathon
 
 # make api object
-api = Amathon(AWSAccessKeyId=api_key.access_key, ASWSecretAccessKey=api_key.secret_key, AssociateTag=api_key.aa_id)
+api = Amathon(AWSAccessKeyId=api_key.access_key, ASWSecretAccessKey=api_key.secret_key, AssociateTag=api_key.aa_id, API_URL="http://webservices.amazon.com/onca/xml")
 
 # lookup the Godel-Escher-Bach-Eternal-Golden ISBN: 0465026567
 print(api.ItemLookup(ItemId="0465026567", ResponseGroup="ItemAttributes").decode("utf-8"))
