@@ -8,7 +8,7 @@ Amazon Product Advertising API for Python 3.x
 '''
 import re
 
-from binder import bind_api
+from amathon.binder import bind_api
 
 class Amathon(object):
     """ Amazon Product Advertising API for Python 3.x
