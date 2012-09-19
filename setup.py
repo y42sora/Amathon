@@ -10,7 +10,6 @@ from amathon import __version__, __license__, __author__
 setup(
     name             = 'amathon',
     version          = __version__,
-    py_modules       = ['amathon'],
     description      = 'Amazon api wrapper for Python 3.x',
     long_description = amathon.__doc__,
     author           = __author__,
